@@ -26,6 +26,42 @@ ul {
   padding: 0 15px;
 }
 
+
+.logo__img {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.nav {
+  background: #322e41;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  color: #FFFFFF;
+  align-items: center;
+  text-align: center;
+}
+
+.menu__link {
+  transition: 0.5s;
+  padding-bottom: 21px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 23px;
+  border-bottom: 2px solid #322e41;
+} 
+
+
+.menu__link:hover {
+  color: #ffe600;
+  border-bottom: 2px solid #fff;
+
 .header__content {
   background-image: url(../img/header-bg.jpg);
   background-position: center;
